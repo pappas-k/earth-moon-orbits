@@ -370,5 +370,6 @@ anim = FuncAnimation(
 )
 
 plt.tight_layout()
-anim.save('earth_orbit.gif', writer='pillow', fps=30, dpi=80)
+# anim.save('earth_orbit.gif', writer='pillow', fps=30, dpi=80)
+plt.savefig('earth_orbit.png', dpi=150, bbox_inches='tight', facecolor=fig.get_facecolor())
 plt.show()
