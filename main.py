@@ -229,7 +229,7 @@ prec_text  = ax.text(0.02, 0.69, "", transform=ax.transAxes, fontsize=9,
                      color="#ff9944", va="top", fontfamily="monospace")
 
 # Info boxes
-ax.text(0.975, 0.97,
+ax.text(0.990, 0.987,
         "Earth orbit (true values)\n"
         f"  a = {A_E:.4f} AU,  e = {ECC_E:.4f}\n"
         f"  T = {T_E:.2f} d\n"
@@ -240,7 +240,7 @@ ax.text(0.975, 0.97,
         bbox=dict(boxstyle="round,pad=0.5", facecolor="#11112a",
                   edgecolor="#333366", alpha=0.85))
 
-ax.text(0.975, 0.76,
+ax.text(0.990, 0.892,
         "Moon orbit  (true values)\n"
         f"  a = {A_M*1e3:.4f}×10⁻³ AU\n"
         f"    = {A_M*149_597_870.7:.0f} km\n"
