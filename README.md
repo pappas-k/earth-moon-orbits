@@ -1,4 +1,4 @@
-# Earth–Moon–Sun Orbits
+# Earth–Moon–Sun Orbit
 
 A physics-based animation of the Earth–Moon system orbiting the Sun, using Kepler's equation with real astronomical values.
 
