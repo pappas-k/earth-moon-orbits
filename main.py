@@ -255,10 +255,10 @@ ax.text(0.975, 0.76,
 ax.legend(handles=[
     mpatches.Patch(color="#FFD700", label="Sun"),
     mpatches.Patch(color="#3399ff", label="Earth"),
-    mpatches.Patch(color="#88aaff", label="Earth trail"),
+    plt.Line2D([0], [0], color="#88aaff", lw=1.2, label="Earth trail"),
     mpatches.Patch(color="#ddddcc", label="Moon"),
-    mpatches.Patch(color="#ccccaa", label="Moon trail"),
-    mpatches.Patch(color="#00ffaa", label="Earth velocity"),
+    plt.Line2D([0], [0], color="#ccccaa", lw=0.9, label="Moon trail"),
+    plt.Line2D([0], [0], color="#00ffaa", lw=1.3, label="Earth velocity"),
 ], loc="lower right", fontsize=7.5, facecolor="#11112a",
    edgecolor="#333366", labelcolor="white", framealpha=0.85)
 
