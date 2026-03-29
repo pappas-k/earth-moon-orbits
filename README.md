@@ -1,6 +1,6 @@
 # Earth–Moon Orbits
 
-A 2D physics-based animation of the Earth–Moon system orbiting the Sun, using Kepler's equation with real astronomical values.
+A physics-based 2D animation of the Earth–Moon system orbiting the Sun, using Kepler's equation with real astronomical values.
 
 ![Earth-Moon-Sun Simulation](earth-moon-orbits.gif)
 
