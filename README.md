@@ -62,3 +62,4 @@ The GIF is saved as `earth-moon-orbits.gif` in the working directory before the 
 - [Apsidal precession — Wikipedia](https://en.wikipedia.org/wiki/Apsidal_precession)
 - [Lunar orbit — Wikipedia](https://en.wikipedia.org/wiki/Lunar_orbit)
 - [Orbital mechanics — Wikipedia](https://en.wikipedia.org/wiki/Orbital_mechanics)
+- [Newton–Raphson method — Wikipedia](https://en.wikipedia.org/wiki/Newton%27s_method)
