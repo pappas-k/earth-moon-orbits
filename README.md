@@ -39,11 +39,11 @@ A physics-based 2D animation of the Earth–Moon system orbiting the Sun, using 
 # Install dependencies
 pip install numpy matplotlib pillow
 
-# Run the simulation (saves earth-moon-orbits.gif, then opens interactive window)
+# Run the simulation (saves earth-moon-orbits.png, then opens interactive window)
 python main.py
 ```
 
-The GIF is saved as `earth-moon-orbits.gif` in the working directory before the interactive window opens.
+The plot is saved as `earth-moon-orbits.png` in the working directory before the interactive window opens. To export a GIF instead, uncomment the `anim.save(...)` line in `main.py`.
 
 ---
 
