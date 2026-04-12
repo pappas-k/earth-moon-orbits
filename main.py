@@ -369,6 +369,6 @@ anim = FuncAnimation(
 )
 
 plt.tight_layout()
-# anim.save('earth-moon-orbits.gif', writer='pillow', fps=30, dpi=80)
+# GIF export: anim.save('earth-moon-orbits.gif', writer='pillow', fps=30, dpi=80)
 plt.savefig('earth-moon-orbits.png', dpi=150, bbox_inches='tight', facecolor=fig.get_facecolor())
 plt.show()
